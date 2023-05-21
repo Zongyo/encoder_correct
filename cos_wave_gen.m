@@ -1,3 +1,4 @@
+%%  function to output cosine
 function output = cos_wave_gen(magni,phase,freq,len)
 
 index=0:len-1;

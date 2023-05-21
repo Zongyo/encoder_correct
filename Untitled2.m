@@ -1,3 +1,5 @@
+%% for the function test
+
 [DC , cos_amp , cos_phase] = fourier_ts(encoder_error);
 tmp = cos_wave_gen(cos_amp(10),cos_phase(10),10,660);
 tmp = tmp + cos_wave_gen(cos_amp(20),cos_phase(20),20,660);

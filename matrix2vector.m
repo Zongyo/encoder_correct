@@ -1,3 +1,4 @@
+%% function to averange the rol of matrix
 function vector = matrix2vector(matrix)
 row = size(matrix,1);
 col = size(matrix,2);

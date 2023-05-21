@@ -1,4 +1,4 @@
-%% sample_freq,repeat_times,maxval,minval
+%% function to create the tirangle wave
 function output = tri_wave_gen(sample_freq,repeat_times,maxval,minval)
     vpp = maxval-minval;
     output = zeros(sample_freq*repeat_times,1);

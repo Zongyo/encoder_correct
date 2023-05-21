@@ -1,3 +1,4 @@
+%% function to help generate the single side of freq domain 
 function [DC , cos_amp , cos_phase] = fourier_ts(data)
    L=size(data,1);
    data_fft = fft(data);

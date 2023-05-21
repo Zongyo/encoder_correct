@@ -1,3 +1,4 @@
+%% function to seperate n*1 vector to x*y matrix ，whitch n=x*y 
 function matrix = vector2matrix(vector,sp_num)
     row = size(vector,1)/sp_num;
     col = sp_num;
